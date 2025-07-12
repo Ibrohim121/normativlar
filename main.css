@@ -1,0 +1,41 @@
+.header {
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.banner__text {
+  font-size: 16px;
+  color: #333;
+  flex-grow: 1;
+}
+
+.banner__link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.banner__link:hover {
+  background-color: #0056b3;
+}
+
+.language__selector select {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
